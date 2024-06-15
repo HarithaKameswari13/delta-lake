@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  spark:
+    build: .
+    volumes:
+      - ./metrics.csv:/app/metrics.csv
+    environment:
+      - SPARK_HOME=/opt/bitnami/spark
+      - PATH=/opt/bitnami/spark/bin:$PATH
+    command: >
+      spark-submit
+      --packages io.delta:delta-core_2.12:1.0.0
+      /app/etl.py

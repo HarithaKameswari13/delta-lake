@@ -1,0 +1,10 @@
+metric,timestamp,value
+request_processing_seconds_sum,2024-06-11 14:41:52,4.986052999855019
+request_processing_seconds_count,2024-06-11 14:41:52,11
+in_progress_requests,2024-06-11 14:41:52,1
+request_processing_seconds_sum,2024-06-11 14:44:25,154.95907579927007
+request_processing_seconds_count,2024-06-11 14:44:26,311
+in_progress_requests,2024-06-11 14:44:26,1
+request_processing_seconds_sum,2024-06-11 14:57:47,2.793499300023541
+request_processing_seconds_count,2024-06-11 14:57:47,8
+in_progress_requests,2024-06-11 14:57:47,1
